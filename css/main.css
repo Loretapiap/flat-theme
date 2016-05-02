@@ -16,16 +16,23 @@
 
 header li {
 	display: inline;
-	padding: 5px;
-	
+	padding: 30px;
+}
 
+header ul.text-right {
+	padding-top: 20px;
 } 
 
-header li a{color:white;}
+header li a{
+	color:white;
+	text-decoration: none;
+}
 
 header li a:hover {
+	text-decoration: none;
 	border-radius: 4px;
-	background-color: rgba{0,0,0,0.8};
+	background-color: #2c3e50;
+	padding: 5px;
 
 }
 
