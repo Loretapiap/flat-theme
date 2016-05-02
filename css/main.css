@@ -29,6 +29,7 @@ header li a{
 }
 
 header li a:hover {
+	color:white;
 	text-decoration: none;
 	border-radius: 4px;
 	background-color: #2c3e50;
