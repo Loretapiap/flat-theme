@@ -14,9 +14,31 @@
   clear: both;
 }
 
+header li {
+	display: inline;
+	padding: 5px;
+	
+
+} 
+
+header li a{color:white;}
+
+header li a:hover {
+	border-radius: 4px;
+	background-color: rgba{0,0,0,0.8};
+
+}
+
 footer li {
 	display: inline;
 	list-style: none;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	min-height: 50px;
 }
 
 /*colores*/
