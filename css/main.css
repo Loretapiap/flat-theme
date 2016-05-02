@@ -68,6 +68,10 @@ footer li {
 	min-height: 50px;
 }
 
+.bg-gris {
+	background-color: #f5f5f5;
+}
+
 /*tipografias*/
 
 .tx-wh {
