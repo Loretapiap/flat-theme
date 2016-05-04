@@ -10,6 +10,8 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -25,13 +27,7 @@
         <div class="col-md-12 bg-azul">
             <div class="logo">
                 <ul class="text-right">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about-us.html">About us</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
@@ -41,11 +37,12 @@
             </div>
         </div>
     </header>
-    <section>
+
+    <section class="imagen-fondo">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 imagen-fondo">
-                    <div class="texto-titulo">
+                <div class="col-md-12">
+                    <div class="texto-titulo tx-wh">
                         <h1>Powerful and Resposive Web Design</h1>
                         <p>Pallentesque habitant morbi trisque senectus et netus et malesuada fames ac turpis egestas.</p>
                     </div>
@@ -53,15 +50,16 @@
             </div>
         </div>
     </section>
-    <section class="verde">
+
+    <section class="col-md-12  bg-verde pd-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 central-home">
+                <div class="col-md-4">
                     <div class="row">
-                        <div class="col-sm-4 icon-home">
-                            <a href="">
+                        <div class="col-sm-4">
+                            
                                 <i class="fa fa-twitter fa-3x" hidden="true"></i>
-                            </a>
+                            
                         </div>
                         <div class="col-sm-9">
                             <h4>Twitter Marketing</h4>
@@ -69,9 +67,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 central-home">
+                <div class="col-md-4">
                     <div class="row">
-                        <div class="col-sm-3 icon">
+                        <div class="col-sm-3">
                             <a href="">
                                 <i class="fa fa-facebook fa-3x" hidden="true"></i>
                             </a>
@@ -82,7 +80,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 central-home">
+                <div class="col-md-4">
                     <div class="row">
                         <div class="col-sm-3 icon">
                             <a href="">
@@ -98,39 +96,40 @@
             </div>
         </div>                
     </section>
-    <section class="gris-claro">
-        <div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-sm-3">
+
+    <section class="gris-claro pd-20">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                        <div class="col-md-3">
                             <h1>Our Latest Project</h1>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                         </div>
-                        <div class="col-sm-3">
-                            <img src="images/portfolio/recent.jpg">
+                        <div class="col-md-3">
+                            <img src="images/portfolio/recent/item1.png" class="img-responsive">
                             <h3>Nova -Corporate site template</h3>
                         </div>
-                        <div class="col-sm-3">
-                            <img src=".../images/portfolio/recent.jpg">
+                        <div class="col-md-3">
+                            <img src="images/portfolio/recent/item2.png" class="img-responsive">
                             <h3>Fornax -Apps site template</h3>
                         </div>
-                        <div class="col-sm-3">
-                            <img src=".../images/portfolio/recent.jpg">
-                            <h3>Flat Theme -Bussiness Theme</h3>                 
+                        <div class="col-md-3">
+                            <img src="images/portfolio/recent/item3.png" class="img-responsive">
+                            <h3>Flat Theme -Bussiness Theme</h3>              
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="gris-claro">
-        <div class="">
+
+
+     <section class="bg-pink pd-5">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 caja-blockquote">
+                <div class="col-md-12 caja-blockquote tx-wh">
                     <h1 class="text-service">What our clients say</h1>
                     <p class="text-service">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="row">
+                   
                         <div class="col-sm-6">                    
                             <blockquote class="pull-left">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -155,11 +154,12 @@
                                 <small>Frase célebre de <cite title="Nombre Apellidos">--Someone famous in Source Title</cite></small>
                             </blockquote>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+   
 
     <section class="bg-azul tx-wh pd-3" id="bajo">
         <div class="container">
@@ -243,7 +243,7 @@
         <div class="bg-azul-osc">
             <div class="col-md-6">
             <span class="tx-wh tiny text-left">
-                (c) 2013 ShapeBootstrap. All Rights reserved.
+                &copy; 2013 ShapeBootstrap. All Rights reserved.
             </span>
         </div>
         <div class="col-md-6">
