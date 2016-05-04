@@ -96,6 +96,10 @@ footer li {
 	background-color: white;
 }
 
+.bg-pink {
+	background-color: #e74c3c;
+}
+
 /*tipografias*/
 
 .tx-wh {
@@ -112,9 +116,17 @@ footer li {
 
 /*generales*/
 
+.pd-20 {
+	padding: 20%;
+}
+
 .pd-10 {
 	padding: 10%;
 } 
+
+.pd-5 {
+	padding: 5%;
+}
 
 .pd-3 {
 	padding: 3%;
@@ -154,6 +166,11 @@ footer li {
 
 .company {
 	margin-left: 20px;
+}
+
+.texto-titulo {
+	padding-top: 20%;
+	padding-bottom: 20%;
 }
 
 
@@ -321,32 +338,17 @@ footer li {
 	width: 80%;
 }
 
+/*index*/
+
+.imagen-fondo {
+	background-image: url(../images/slider/bg1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 600px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 #bajo a{ 
 	color:white;
 	text-decoration: none;
@@ -428,6 +430,3 @@ ul.flecha li a, ul.flecha li a:hover {
 	text-decoration: none;
 	color: black;
 }
-
-
->>>>>>> develop
