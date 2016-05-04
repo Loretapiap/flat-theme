@@ -47,10 +47,21 @@ footer li {
 }
 
 .logo {
-	background-image: url(images/logo.png);
+	background-image: url(../images/logo.png);
 	background-position: left;
 	background-repeat: no-repeat;
 	min-height: 50px;
+}
+
+#active li{
+	display: inline;
+	list-style: none;
+}
+
+#active {
+	padding-top: 50px;
+	padding-bottom: 50px;
+
 }
 
 /*colores*/
@@ -76,6 +87,15 @@ footer li {
 	background-color: #f5f5f5;
 }
 
+.bg-verde {
+	background-color: #2ecc71;
+	min-height: 150px;
+}
+
+.bg-white {
+	background-color: white;
+}
+
 /*tipografias*/
 
 .tx-wh {
@@ -86,6 +106,10 @@ footer li {
 	font-size: 11px;
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 /*generales*/
 
 .pd-10 {
@@ -94,6 +118,11 @@ footer li {
 
 .pd-3 {
 	padding: 3%;
+}
+
+
+.pd-2 {
+	padding: 2%;
 }
 
 .pd-1 {
@@ -111,6 +140,7 @@ footer li {
 .mg-3 {
 	margin: 3%;
 }
+
 
 #bajo li {
 	list-style-type: none;
@@ -316,3 +346,88 @@ footer li {
 
 
 
+=======
+#bajo a{ 
+	color:white;
+	text-decoration: none;
+}
+
+.inli {
+	display: inline;
+}
+
+
+/*portfolio*/
+
+ul.folio-img-resp li {
+	list-style: none;
+}
+
+.folio-img {
+  padding: 0;
+  margin: 0;
+}
+
+.folio-img img {
+  width: 100%;
+}
+.folio-img h5 {
+  background: #ffffff;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #2c3e50;
+
+}
+
+.folio-img .folio-box {
+  background: #ffffff;
+  border: 1px solid #eee;
+  padding: 10px 10px 0;
+  margin: 0 20px 20px 0;
+  position: relative;
+
+-webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
+ /*portfolio responsive*/
+
+ .folio-img-resp > li {
+  float: left;
+  padding: 0;
+
+}
+.folio-img-resp.col-2 > li {
+  width: 50%;
+}
+.folio-img-resp.col-3 > li {
+  width: 33%;
+}
+.folio-img-resp.col-4 > li {
+  width: 25%;
+}
+.folio-img-resp.col-5 > li {
+  width: 20%;
+}
+.folio-img-resp.col-6 > li {
+  width: 16%;
+}
+
+/*Blog*/
+
+ul.flecha li {
+	list-style: none;
+}
+
+ul.flecha li:before{
+   content: "\00BB";
+}
+
+ul.flecha li a, ul.flecha li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+
+>>>>>>> develop
