@@ -103,6 +103,10 @@ footer li {
 	font-size: 11px;
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 /*generales*/
 
 .pd-10 {
@@ -111,6 +115,10 @@ footer li {
 
 .pd-3 {
 	padding: 3%;
+}
+
+.pd-2 {
+	padding: 2%;
 }
 
 .pd-1 {
@@ -133,6 +141,11 @@ footer li {
 	color:white;
 	text-decoration: none;
 }
+
+.inli {
+	display: inline;
+}
+
 
 /*portfolio*/
 
@@ -205,3 +218,5 @@ ul.flecha li a, ul.flecha li a:hover {
 	text-decoration: none;
 	color: black;
 }
+
+
